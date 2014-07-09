@@ -10,7 +10,7 @@ createPattern = function(path) {
     };
 };
 
-seajsPath = path.join(path.dirname(require.resolve('seajs')), '..', 'dist', 'seajs-debug.js');
+seajsPath = path.join(path.dirname(require.resolve('seajs')), '..', 'dist', 'sea-debug.js');
 
 var initRequireJs = function(files) {
     files.unshift(createPattern(__dirname + '/adapter.js'));
