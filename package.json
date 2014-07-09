@@ -1,0 +1,27 @@
+{
+  "name": "karma-seajs",
+  "version": "0.1.0",
+  "description": "A Karma plugin, Adapter for seajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/gulp/bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gsmlg/karma-seajs"
+  },
+  "keywords": [
+    "karam-plugin",
+    "karma-adapter",
+    "seajs"
+  ],
+  "author": "gsmlg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsmlg/karma-seajs/issues"
+  },
+  "homepage": "https://github.com/gsmlg/karma-seajs",
+  "dependencies": {
+    "seajs": "^2.3.0"
+  }
+}
